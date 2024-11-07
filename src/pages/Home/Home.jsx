@@ -35,7 +35,7 @@ const Home = () => {
       <title>Tesla</title>
       <header>
         <nav id="navbar" className={scrollY > 50 ? `${s.white}` : ''}>
-          <img className={s.logo} src="/src/assets/logo.svg" alt="broken" />
+          <img className={s.logo} src="src/assets/logo.svg" alt="broken" />
 
           <div className={s.nav}>
             {!!dataHome &&
@@ -59,9 +59,9 @@ const Home = () => {
           </div>
 
           <div className={s.about}>
-            <img src="/src/assets/znakvoprosa.svg" alt="broken" />
-            <img src="/src/assets/lang.svg" alt="broken" />
-            <img src="/src/assets/profile.svg" alt="broken" />
+            <img src="src/assets/znakvoprosa.svg" alt="broken" />
+            <img src="src/assets/lang.svg" alt="broken" />
+            <img src="src/assets/profile.svg" alt="broken" />
           </div>
         </nav>
 

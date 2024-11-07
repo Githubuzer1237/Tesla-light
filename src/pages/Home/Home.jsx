@@ -3,6 +3,12 @@ import HeaderPanel from '../../components/HeaderPanel/HeaderPanel';
 import s from './Home.module.css';
 import { Context } from '../../context/Context';
 import { Link } from 'react-router-dom';
+import lang from '../../assets/lang.svg';
+import logo from '../../assets/logo.svg';
+import profile from '../../assets/profile.svg';
+import znak from '../../assets/znakvoprosa.svg';
+
+
 
 const Home = () => {
   const { switchHeaderPanel, dataHome, setdataHeaderPanel } =
@@ -35,7 +41,7 @@ const Home = () => {
       <title>Tesla</title>
       <header>
         <nav id="navbar" className={scrollY > 50 ? `${s.white}` : ''}>
-          <img className={s.logo} src="src/assets/logo.svg" alt="broken" />
+          <img className={s.logo} src={logo} alt="broken" />
 
           <div className={s.nav}>
             {!!dataHome &&
@@ -59,9 +65,9 @@ const Home = () => {
           </div>
 
           <div className={s.about}>
-            <img src="src/assets/znakvoprosa.svg" alt="broken" />
-            <img src="src/assets/lang.svg" alt="broken" />
-            <img src="src/assets/profile.svg" alt="broken" />
+            <img src={znak} alt="broken" />
+            <img src={lang} alt="broken" />
+            <img src={profile} alt="broken" />
           </div>
         </nav>
 

@@ -1,0 +1,19 @@
+.headerProduct {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 220px;
+  height: 175px;
+ 
+  img {
+    width: 220px;
+  }
+  .div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    a {
+      color: gray;
+    }
+  }
+}

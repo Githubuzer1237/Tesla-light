@@ -1,0 +1,39 @@
+
+.items {
+    
+    gap: 40px;
+    display: flex;
+    .img {
+        max-width: 416px;
+        width: 100%;
+        height: 416px;
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 95% 100%, 0 100%, 0% 50%);
+    }
+h3 {
+
+    color: rgb(167, 162, 162);
+
+}
+
+
+
+
+
+
+
+
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.h2 {
+    color: #fff;
+    padding: 30px;
+}
+.items_container {
+    background-image: url('bg-gorox.jpg');
+    height: 100dvh;
+}

@@ -1,0 +1,10 @@
+.zoom {
+    overflow: hidden;
+    position: sticky;
+    
+    img {
+        width: 100%;
+        transform: scale(5);
+        transition: transform 0.2s ease-out;
+    }
+}

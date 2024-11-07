@@ -1,0 +1,100 @@
+.btn1 {
+    max-width: 264px;
+    display: inline-block;
+    padding: 10px 90px;
+    background-color: #3e6ae1;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn1:hover {
+    background-color: #294696;
+  }
+  .btn2 {
+    max-width: 264px;
+
+    display: inline-block;
+    padding: 10px 90px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+  
+    transition: background-color 0.3s;
+  }
+  
+  .btn2:hover {
+    background-color: #333;
+  }  
+  .btns1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .h1 {
+    text-align: start;
+    color: #fff;
+    font-size: 40px;  
+  }
+  .p {
+    color: #fff;
+    font-size: 16px;
+  }
+  .container {
+   
+   height: 100.5dvh;
+    background-image: url('/bg_model_s_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;    
+    gap: 40px;
+
+    transition: all .3s;
+
+
+    &.scrolled {
+    background-image: url('/bg_model_s_2.jpg');
+
+    }
+  }
+.newcont {
+  flex-direction: column;
+  gap: 40px;
+  display: flex;
+  margin: 340px;
+  @media (max-width:1350px) {
+    margin: 240px;
+  }
+  @media (max-width:1150px) {
+    margin:200px 140px;
+  }
+  @media (max-width:1000px) {
+    margin:300px 140px;
+  }
+  @media (max-width:900px) {
+    margin: 300px 0;
+  }
+  @media (max-width:700px) {
+   justify-content: center;
+   align-items: center;
+  gap: 600px;
+  .textcont {
+   margin-top: -250px;
+  }
+  }
+}
